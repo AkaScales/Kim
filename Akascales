@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kim Hyeonji</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --pink: #FF6B9D;
+    --yellow: #FFE566;
+    --mint: #7EECC8;
+    --lavender: #C4AAFF;
+    --coral: #FF8C6B;
+    --bg: #000000;
+    --text: #ffffff;
+  }
+
+  @keyframes chromaBody {
+    0%   { background: #000000; }
+    20%  { background: #0d0008; }
+    40%  { background: #1a0010; }
+    60%  { background: #0d0008; }
+    80%  { background: #05000a; }
+    100% { background: #000000; }
+  }
+
+  @keyframes sakuraPulse {
+    0%   { opacity: 0.55; filter: blur(90px) brightness(1.4); }
+    50%  { opacity: 0.85; filter: blur(100px) brightness(1.9); }
+    100% { opacity: 0.55; filter: blur(90px) brightness(1.4); }
+  }
+
+  @keyframes sakuraDrift {
+    0%   { transform: translateY(0px)   scale(1);    }
+    50%  { transform: translateY(-
